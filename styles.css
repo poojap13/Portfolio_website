@@ -1,0 +1,164 @@
+ /* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #D7C0AE; /* Light background color */
+  color: #705C53; /* Dark text color */
+}
+.navbar {
+  background-color: #D7C0AE;
+  text-align: center; /* Primary Color */
+}
+
+
+.nav-link {
+  color: #ffffff !important; /* White for better contrast */
+}
+ /* Custom styling for the About section */
+ .about-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+ 
+  .about-section h2 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+     color: #8a6b61; /* Header color */
+  }
+
+  .about-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #343a40; /* Dark gray border */
+    margin-bottom: 20px;
+   
+  }
+
+  
+
+  .about-section p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #6c757d; /* Bootstrap muted text color */
+  }
+
+  @media (max-width: 768px) {
+    .about-section img {
+       width: 80%;
+       height: auto; /* Maintain aspect ratio */
+    }
+ }
+
+    .about-section img {
+      width: 120px;
+      height: 120px;
+    }
+  /* Projects Section Styles */
+.projects-section {
+  padding: 60px 0;
+}
+
+.projects-section h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.project-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.card-img-top {
+  height: 200px;
+
+  object-fit: cover; /* Maintain aspect ratio and crop overflow */
+}
+
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.card-footer .btn {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .projects-section h2 {
+      font-size: 2.5rem;
+  }
+}
+
+/* Skills Section Styles */
+.skills-section {
+  padding: 60px 0;
+  background-color: ;
+}
+
+.skills-section h2 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.skills-section .card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.skills-section .card:hover {
+  transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+@media (max-width: 768px) {
+  .skills-section h2 {
+      font-size: 2.5rem;
+  }
+}
+
+/* Contact Me Section Styles */
+.contact-section {
+  padding: 60px 0;
+}
+
+.contact-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  width: 60px; /* Adjust size as needed */
+  height: 60px; /* Adjust size as needed */
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Slightly increase size on hover */
+}
+
+@media (max-width: 768px) {
+  .contact-section h2 {
+      font-size: 2.5rem;
+  }
+}
+.contact-link {
+  color: #007bff; /* Bootstrap primary color */
+  text-decoration: none; /* Remove underline */
+  font-size: 1.2rem; /* Adjust font size as needed */
+}
+
+.contact-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+
+/* Footer Styles */
+footer {
+  background-color: #EDDFE0; /* Footer background color */
+  color: #705C53; /* Footer text color */
+  padding: 20px 0;
+  text-align: center;
+}
